@@ -20,10 +20,10 @@ Step 1:\
 Choose a ticket of the next highest priority from the project tab, move the ticket to "in progress" and imform everyone that you will work on it.\
 Step 2:\
 Open your local github repository with your terminal.
-Step 3:
-Create and switch to a new branch.
-"git checkout -b <branch_name>" (use ticket-#number for branch_name)
-Step 4:
+Step 3:\
+Create and switch to a new branch.\
+"git checkout -b <branch_name>" (use ticket-#number for branch_name)\
+Step 4:\
 
 
 
