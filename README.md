@@ -5,24 +5,31 @@ For each ticket you create a new branch with the same ID as the issue. E.g. issu
 Issues are small or large assignments and can be found in the "projects" tab (see navbar). 
 
 # Develoment process with git commands
-(only write the contents of the following two)
-<something> is required
+(only write the contents of the following two)\
+< something > is required (type it without whitespaces)\
 [something] is optional
 ## First steps
 1) Open your prefered terminal
 2) Maneuver to folder where you want to store your github repository
 3) type "git clone git@github.com:SE-PM-Team/Entrance-Counter.git [your_repository_name]" in your terminal
-4) a
-5) b
+4) Now you're done with the setup.
 
 ## Workflow
 ### First time working with a ticket
-Step 1:
-Choose a ticket of the next highest priority and imform everyone that you will work on it.\
-Step 2:
+Step 1:\
+Choose a ticket of the next highest priority from the project tab, move the ticket to "in progress" and imform everyone that you will work on it.\
+Step 2:\
+Open your local github repository with your terminal.
+Step 3:
+Create and switch to a new branch.
+"git checkout -b <branch_name>" (use ticket-#number for branch_name)
+Step 4:
+
+
 
 ### Continue working with a ticket
 
+# Useful github commands
 
 # Useful terminal commands
 ## Linux commands
@@ -38,5 +45,7 @@ Step 2:
   - "rm <file_name>"
 - "touch <file_name>" to create a file
 - "cat > <file_name>" to create a file and immediately write in it, close and save file with "Ctrl+D"
+- "clear": clears your terminal window
+- arrow key up: select the previous command
 ## Windows commands
   
