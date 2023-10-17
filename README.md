@@ -36,6 +36,7 @@ Step 5:\
 "git add <file_name>"\
 "git commit -m 'briefly describe what you changed'"\
 Final step:\
+Now commit your changes and/or files to the branch.
 "git push -u origin <branch name>"
 
 ### Continue working with a ticket
@@ -72,7 +73,7 @@ Delete the old branch locally once you're fully finished with it. This will not 
 "git branch -D <branch name>"
 
 
-## Solving merge conflicts\
+## Solving merge conflicts
 In the case of getting a merge conflict when trying to create a pull request you can do the following steps to resolve it:\
 Step 1:\
 "git pull origin master"\
@@ -116,7 +117,6 @@ Final step:\
 
 ## Linux specific commands
 - "ls": list files, shows all the folders and files
-
 - "mkdir <directory_name>" stands for MaKe DIRectory
 - rm: ReMove directoy or file
   - "rm -d <directory_name>" removes an empty directory
@@ -125,6 +125,7 @@ Final step:\
 - "touch <file_name>" to create a file
 - "cat > <file_name>" to create a file and immediately write in it, close and save file with "Ctrl+D"
 
-
 ## Windows commands
-  
+
+# Useful sources
+https://www.youtube.com/watch?v=jhtbhSpV5YA 
