@@ -16,8 +16,11 @@ Open your prefered terminal.\
 Step 2:\
 Move to the folder where you want to store your github repository using "cd".\
 Final step:\
-Now copy the remote repository to your own local machine.\
-"git clone git@github.com:SE-PM-Team/Entrance-Counter.git [your_repository_name]" (uses ssh key)
+Now copy the remote repository to your own local machine.
+```
+git clone git@github.com:SE-PM-Team/Entrance-Counter.git [your_repository_name]
+```
+(uses ssh key)
 
 ## Workflow
 For the following processes you will always need to be in your local repository with your terminal.
@@ -28,75 +31,115 @@ Choose a ticket of the next highest priority from the project tab, move the tick
 Step 2:\
 Open your local github repository with your terminal.\
 Step 3:\
-Create and switch to a new branch.\
-"git checkout -b <branch_name>" (use ticket-#number for branch_name)\
+Create and switch to a new branch (use ticket-#number for branch_name).
+```
+git checkout -b <branch_name>
+```
 Step 4:\
 Do some coding. \
-Step 5:\
-"git add <file_name>"\
-"git commit -m 'briefly describe what you changed'"\
+Step 5:
+```
+git add <file_name>
+```
+```
+git commit -m 'briefly describe what you changed'
+```
 Final step:\
 Now commit your changes and/or files to the branch.
-"git push -u origin <branch_name>"
+```
+git push -u origin <branch_name>
+```
 
 ### Continue working with a ticket
 Step 1:\
-Update your local repository.\
-"git pull origin master"\
+Update your local repository.
+```
+git pull origin master
+```
 Step 2:\
 Do some coding.\
-Step 3:\
-"git add <file_name>"\
-"git commit -m 'briefly describe what you changed'"\
-Final step:\
-"git push -u origin <branch_name>"
+Step 3:
+```
+git add <file_name>
+```
+```
+git commit -m 'briefly describe what you changed'
+```
+Final step:
+```
+git push -u origin <branch_name>
+```
 
 
 ## Making a pull request
 When you're done with your ticket you need to create a pull request to push it to the development branch.\
 Step 1:\
-synchronise your local repository to avoid merge conflicts.\
-"git pull origin master"\
+synchronise your local repository to avoid merge conflicts.
+```
+git pull origin master
+```
 Step 2:\
-Now create a pull request\
-"git push"\
+Now create a pull request
+```
+git push
+```
 Step 3:\
 Check if a pull request has been created on github. Wait for someone to check and confirm it.\
 Step 4:\
-Switch to the main branch\
-"git checkout master"\
-Step 5:\
-After the pull request has been checked and confirmed, the main branch will be updated. This means you need to update your local repository again.\
-"git pull"\
+Switch to the main branch
+```
+git checkout master
+```
+Step 5:
+After the pull request has been checked and confirmed, the main branch will be updated. This means you need to update your local repository again.
+```
+git pull
+```
 Final step:\
-Delete the old branch locally once you're fully finished with it. This will not delete it remotely.\
-"git branch -D <branch_name>"
+Delete the old branch locally once you're fully finished with it. This will not delete it remotely.
+```
+git branch -D <branch_name>
+```
 
 
 ## Solving merge conflicts
 In the case of getting a merge conflict when trying to create a pull request you can do the following steps to resolve it:\
-Step 1:\
-"git pull origin master"\
+Step 1:
+```
+git pull origin master
+```
 Step 2:\
 You now should have gotten some message about a failed merge. Now you need to fix the conflict and commit the result.\
 To solve this you now need to open the file(s) with the merge conflict and choose what the correct changes are.\
 In VS Code to choose your changes you would click on "Accept Current Change".\
 Remember to save the changed file(s).\
-Step 3:\
-"git add <file_name>"\
-"git commit -m 'merge conflict resolved'"\
-Step 4:\
-"git push"\
+Step 3:
+```
+git add <file_name>
+```
+```
+git commit -m 'merge conflict resolved'
+```
+Step 4:
+```
+git push
+```
 Step 5:\
 Check if the pull request has been updated on github and inform others to check and confirm your request.\
 Step 6:\
-Switch to the master branch\
-"git checkout master"\
+Switch to the master branch
+```
+git checkout master
+```
 Step 7:\
-Update your local repository\
-"git pull"\
-Final step:\
-"git branch -D <branch_name>"
+Update your local repository
+```
+git pull
+```
+Final step:
+```
+git branch -D <branch_name>
+```
 
 ## Useful github commands
 - "git fetch": using this command you can see a preview of all changes that would happen if you would use "git pull"
