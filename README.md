@@ -144,6 +144,7 @@ git branch -D <branch_name>
 ## Useful github commands
 - "git fetch": using this command you can see a preview of all changes that would happen if you would use "git pull"
 - "git status":
+- "git log":
 - "-A":
 
 ## Github commands you should not use before discussing it
