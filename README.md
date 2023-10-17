@@ -17,7 +17,7 @@ Step 2:\
 Move to the folder where you want to store your github repository using "cd".\
 Final step:\
 Now copy the remote repository to your own local machine.\
-"git clone git@github.com:SE-PM-Team/Entrance-Counter.git [your_repository_name]"
+"git clone git@github.com:SE-PM-Team/Entrance-Counter.git [your_repository_name]" (using ssh key)
 
 ## Workflow
 For the following processes you will always need to be in your local repository with your terminal.
@@ -131,7 +131,7 @@ Final step:\
 Introduction to Git\
 https://www.youtube.com/watch?v=92sycL8ij-U \
 Working in a team using Git\
-https://www.youtube.com/watch?v=RzYJvSnzlMk \
+https://www.youtube.com/watch?v=RzYJvSnzlMk 
 
 Github Workflow process using terminal commands\
 https://www.youtube.com/watch?v=jhtbhSpV5YA  
