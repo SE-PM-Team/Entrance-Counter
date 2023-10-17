@@ -48,6 +48,14 @@ Step 4:
 Now you're done.
 
 
+## Making a pull request
+When you're done with your ticket you need to create a pull request to push it to the development branch.
+Step 1:
+synchronise your local repository to avoid merge conflicts.
+"git pull origin master"
+Step 2:
+git 
+
 
 # Useful github commands
 
