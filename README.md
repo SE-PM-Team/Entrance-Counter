@@ -38,7 +38,14 @@ Now you're done.
 Step 1:
 Update your local repository.
 "git pull origin master"
-
+Step 2:
+Do some coding.
+Step 3:
+"git add <file name>"
+"git commit -m "briefly describe what you changed"
+"git push -u origin <branch name>"\
+Step 4:
+Now you're done.
 
 
 
