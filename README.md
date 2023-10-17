@@ -24,10 +24,23 @@ Step 3:\
 Create and switch to a new branch.\
 "git checkout -b <branch_name>" (use ticket-#number for branch_name)\
 Step 4:\
-
+Do some coding. \
+Step 5:\
+"git add <file_name>"\
+"git commit -m "briefly describe what you changed""\
+Step 6:\
+"git push -u origin <branch name>"\
+Step 7:
+Now you're done.
 
 
 ### Continue working with a ticket
+Step 1:
+Update your local repository.
+"git pull origin master"
+
+
+
 
 # Useful github commands
 
