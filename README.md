@@ -6,15 +6,16 @@ Issues are small or large assignments and can be found in the "projects" tab (se
 
 # Develoment process with git commands
 (only write the contents of the following two)\
-< something > is required (type it without whitespaces)\
-[something] is optional
+"<something>" is required (type it without whitespaces)\
+"[something]" is optional
 ## First steps
 1) Open your prefered terminal
-2) Maneuver to folder where you want to store your github repository
+2) Move to the folder where you want to store your github repository
 3) type "git clone git@github.com:SE-PM-Team/Entrance-Counter.git [your_repository_name]" in your terminal
 4) Now you're done with the setup.
 
 ## Workflow
+For the following processes you will always need to be in your local repository.
 ### First time working with a ticket
 Step 1:\
 Choose a ticket of the next highest priority from the project tab, move the ticket to "in progress" and imform everyone that you will work on it.\
@@ -28,24 +29,21 @@ Do some coding. \
 Step 5:\
 "git add <file_name>"\
 "git commit -m "briefly describe what you changed""\
-Step 6:\
+Final step:\
 "git push -u origin <branch name>"\
-Step 7:
-Now you're done.
 
 
 ### Continue working with a ticket
-Step 1:
-Update your local repository.
-"git pull origin master"
-Step 2:
-Do some coding.
-Step 3:
-"git add <file name>"
-"git commit -m "briefly describe what you changed"
+Step 1:\
+Update your local repository.\
+"git pull origin master"\
+Step 2:\
+Do some coding.\
+Step 3:\
+"git add <file name>"\
+"git commit -m "briefly describe what you changed"\
+Final step:
 "git push -u origin <branch name>"\
-Step 4:
-Now you're done.
 
 
 ## Making a pull request
