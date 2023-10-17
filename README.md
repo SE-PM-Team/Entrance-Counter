@@ -128,4 +128,10 @@ Final step:\
 ## Windows commands
 
 # Useful sources
-https://www.youtube.com/watch?v=jhtbhSpV5YA 
+Introduction to Git\
+https://www.youtube.com/watch?v=92sycL8ij-U \
+Working in a team using Git\
+https://www.youtube.com/watch?v=RzYJvSnzlMk \
+
+Github Workflow process using terminal commands\
+https://www.youtube.com/watch?v=jhtbhSpV5YA  
