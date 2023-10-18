@@ -136,7 +136,8 @@ Update your local repository
 ```
 git pull
 ```
-Final step:
+Final step:\
+Delete the old branch locally once you're fully finished with it. This will not delete it remotely.
 ```
 git branch -D <branch_name>
 ```
