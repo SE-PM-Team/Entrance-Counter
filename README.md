@@ -171,6 +171,15 @@ git branch -D <branch_name>
 - "cat > <file_name>" to create a file and immediately write in it, close and save file with "Ctrl+D"
 
 ## Windows commands
+- „dir” : list files, shows all the folders and files
+- „mkdir” <directory_name> : stands for MaKe DIRectory
+- „del” : delete files
+  - „rmdir” or „rd” – ReMove Directories
+  - „rmdir /s /q <directory_name>” – Remove a directory and its content
+  -„del <file_name>” – deliting file
+- „type nul > <file_name>” : to create a file
+- „echo. > <file_name>”
+-„echo Your text goes here. >> <file_name>” : to create a file and immediately write in it
 
 # Useful sources
 Introduction to Git\
