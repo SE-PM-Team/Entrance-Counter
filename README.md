@@ -76,7 +76,7 @@ When you're done with your ticket you need to create a pull request to push it t
 Step 1:\
 synchronise your local repository to avoid merge conflicts.
 ```
-git pull origin master
+git pull origin development
 ```
 Step 2:\
 Now create a pull request
@@ -88,7 +88,7 @@ Check if a pull request has been created on github. Wait for someone to check an
 Step 4:\
 Switch to the main branch
 ```
-git checkout master
+git checkout development
 ```
 Step 5:
 After the pull request has been checked and confirmed, the main branch will be updated. This means you need to update your local repository again.
@@ -106,7 +106,7 @@ git branch -D <branch_name>
 In the case of getting a merge conflict when trying to create a pull request you can do the following steps to resolve it:\
 Step 1:
 ```
-git pull origin master
+git pull origin development
 ```
 Step 2:\
 You now should have gotten some message about a failed merge. Now you need to fix the conflict and commit the result.\
@@ -129,7 +129,7 @@ Check if the pull request has been updated on github and inform others to check 
 Step 6:\
 Switch to the master branch
 ```
-git checkout master
+git checkout development
 ```
 Step 7:\
 Update your local repository
@@ -147,6 +147,7 @@ git branch -D <branch_name>
 - "git status":
 - "git log":
 - "-A":
+- "git branch": shows what branches there are, the branch with a "*" is the one you're currently in
 
 ## Github commands you should not use before discussing it
 - "-f" or "--force": this will forcefully push to the remote repository in case merge conflicts (for "git push -f")
