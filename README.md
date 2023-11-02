@@ -54,7 +54,7 @@ git push -u origin <branch_name>
 Step 1:\
 Update your local repository.
 ```
-git pull origin master
+git pull origin development
 ```
 Step 2:\
 Do some coding.\
@@ -67,17 +67,39 @@ git commit -m 'briefly describe what you changed'
 ```
 Final step:
 ```
-git push -u origin <branch_name>
+git push -u origin <ticket_branch_name>
 ```
 
 
 ## Making a pull request
 When you're done with your ticket you need to create a pull request to push it to the development branch.\
+Step 0:
+Check if you're in the correct ticket branch-
+```
+git checkout <ticket_branch_name>
+```
 Step 1:\
 synchronise your local repository to avoid merge conflicts.
 ```
 git pull origin development
 ```
+Step 2:\
+Check for conflicts and resolve them if there are any.
+```
+git rebase development
+```
+
+Step 3:\
+Now push the ticket branch to the development branch.
+```
+git push origin feature-branch
+```
+Step 4a:\
+Manually creating pull request
+Open the github repository in the browser and manually create the pull request.
+Step 4b:
+Creating pull request using the terminal.
+
 Step 2:\
 Now create a pull request
 ```
