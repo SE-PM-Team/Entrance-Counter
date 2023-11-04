@@ -46,10 +46,12 @@ otherwise you can also use the following if you want to add all the files you up
 ```
 git add -u
 ```
+Step 6 (optional):
 optional command to check if you added the correct files:
 ```
 git status
 ```
+Step 7:
 ```
 git commit -m 'briefly describe what you changed'
 ```
@@ -76,10 +78,12 @@ otherwise you can also use the following if you want to add all the files you up
 ```
 git add -u
 ```
+Step 4 (optional):
 optional command to check if you added the correct files:
 ```
 git status
 ```
+Step 5:
 ```
 git commit -m 'briefly describe what you changed'
 ```
@@ -147,25 +151,27 @@ otherwise you can also use the following if you want to add all the files you up
 ```
 git add -u
 ```
+Step 4 (optional):
 optional command to check if you added the correct files:
 ```
 git status
 ```
+Step 5:
 ```
 git commit -m 'merge conflict resolved'
 ```
-Step 4:
+Step 6:
 ```
 git push origin development
 ```
-Step 5:\
+Step 7:\
 Check if the pull request has been updated on github and inform others to check and confirm your pull request.\
-Step 6:\
+Step 8:\
 After someone confirmed your pull request switch to the development branch.
 ```
 git checkout development
 ```
-Step 7:\
+Step 9:\
 Update your local repository
 ```
 git pull origin development
