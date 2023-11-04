@@ -37,7 +37,7 @@ git checkout -b <ticket_branch_name>
 ```
 Step 4:\
 Do some coding. \
-Step 5:
+Step 5:\
 If you created a new file or want to manually choose the files that should be added:
 ```
 git add <file_name>
@@ -46,12 +46,12 @@ otherwise you can also use the following if you want to add all the files you up
 ```
 git add -u
 ```
-Step 6 (optional):
+Step 6 (optional):\
 optional command to check if you added the correct files:
 ```
 git status
 ```
-Step 7:
+Step 7:\
 ```
 git commit -m 'briefly describe what you changed'
 ```
@@ -69,7 +69,7 @@ git pull origin development
 ```
 Step 2:\
 Do some coding.\
-Step 3:
+Step 3:\
 If you created a new file or want to manually choose the files that should be added:
 ```
 git add <file_name>
@@ -78,12 +78,12 @@ otherwise you can also use the following if you want to add all the files you up
 ```
 git add -u
 ```
-Step 4 (optional):
+Step 4 (optional):\
 optional command to check if you added the correct files:
 ```
 git status
 ```
-Step 5:
+Step 5:\
 ```
 git commit -m 'briefly describe what you changed'
 ```
@@ -95,7 +95,7 @@ git push -u origin <ticket_branch_name>
 
 ## Making a pull request
 When you're done with your ticket you need to create a pull request to push it to the development branch.\
-Step 1:
+Step 1:\
 Check if you're in the correct ticket branch.
 ```
 git checkout <ticket_branch_name>
@@ -116,10 +116,10 @@ Now push the ticket branch to the development branch.
 git push origin development
 ```
 Step 5:\
-Manually creating pull request
-Open the github repository in the browser and manually create the pull request.
+Manually creating pull request\
+Open the github repository in the browser and manually create the pull request.\
 
-Step 6:
+Step 6:\
 After the pull request has been checked and confirmed, the main branch will be updated. This means you need to update your local repository again.
 ```
 git pull origin development
@@ -142,7 +142,7 @@ You now should have gotten some message about a failed merge. Now you need to fi
 To solve this you now need to open the file(s) with the merge conflict and choose what the correct changes are.\
 In VS Code to choose your changes you would click on "Accept Current Change".\
 Remember to save the changed file(s).\
-Step 3:
+Step 3:\
 If you created a new file or want to manually choose the files that should be added:
 ```
 git add <file_name>
@@ -151,7 +151,7 @@ otherwise you can also use the following if you want to add all the files you up
 ```
 git add -u
 ```
-Step 4 (optional):
+Step 4 (optional):\
 optional command to check if you added the correct files:
 ```
 git status
