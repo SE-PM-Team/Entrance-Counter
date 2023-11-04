@@ -13,30 +13,37 @@ Issues are small or large assignments and can be found in the "projects" tab (se
 ## First steps
 Step 1:\
 Open your prefered terminal.\
+\
 Step 2:\
 Move to the folder where you want to store your github repository using "cd".\
+\
 Final step:\
-Now copy the remote repository to your own local machine.
+Now copy the remote repository to your own local machine (this command uses the ssh key).
 ```
 git clone git@github.com:SE-PM-Team/Entrance-Counter.git [your_preferred_repository_name]
 ```
-(uses ssh key)
+
 
 ## Workflow
 For the following processes you will always need to be in your local repository with your terminal.
 
+
 ### First time working with a ticket
 Step 1:\
 Choose a ticket of the next highest priority from the project tab, move the ticket to "in progress" and inform everyone that you will work on it.\
+\
 Step 2:\
 Open your local github repository with your terminal.\
+\
 Step 3:\
 Create and switch to a new branch (use ticket-#number for branch_name).
 ```
 git checkout -b <ticket_branch_name>
 ```
+\
 Step 4:\
 Do some coding. \
+\
 Step 5:\
 If you created a new file or want to manually choose the files that should be added:
 ```
@@ -46,20 +53,24 @@ otherwise you can also use the following if you want to add all the files you up
 ```
 git add -u
 ```
+\
 Step 6 (optional):\
 optional command to check if you added the correct files:
 ```
 git status
 ```
-Step 7:\
+\
+Step 7:
 ```
 git commit -m 'briefly describe what you changed'
 ```
+\
 Final step:\
 Now push your changes and/or newly created files to the branch.
 ```
 git push -u origin <branch_name>
 ```
+
 
 ### Continue working with a ticket
 Step 1:\
@@ -69,6 +80,7 @@ git pull origin development
 ```
 Step 2:\
 Do some coding.\
+\
 Step 3:\
 If you created a new file or want to manually choose the files that should be added:
 ```
@@ -78,15 +90,18 @@ otherwise you can also use the following if you want to add all the files you up
 ```
 git add -u
 ```
+\
 Step 4 (optional):\
 optional command to check if you added the correct files:
 ```
 git status
 ```
+\
 Step 5:\
 ```
 git commit -m 'briefly describe what you changed'
 ```
+\
 Final step:
 ```
 git push -u origin <ticket_branch_name>
@@ -100,30 +115,35 @@ Check if you're in the correct ticket branch.
 ```
 git checkout <ticket_branch_name>
 ```
+\
 Step 2:\
 synchronise your local repository to avoid merge conflicts.
 ```
 git pull origin development
 ```
+\
 Step 3:\
 Check for conflicts and resolve them if there are any.
 ```
 git rebase development
 ```
+\
 Step 4:\
 Now push the ticket branch to the development branch.
 ```
 git push origin development
 ```
+\
 Step 5:\
 Manually creating pull request\
 Open the github repository in the browser and manually create the pull request.\
-
+\
 Step 6:\
 After the pull request has been checked and confirmed, the main branch will be updated. This means you need to update your local repository again.
 ```
 git pull origin development
 ```
+\
 Final step:\
 Delete the old branch locally once you're fully finished with it. This will not delete it remotely.
 ```
@@ -137,11 +157,13 @@ Step 1:
 ```
 git pull origin development
 ```
+\
 Step 2:\
 You now should have gotten some message about a failed merge. Now you need to fix the conflict and commit the result.\
 To solve this you now need to open the file(s) with the merge conflict and choose what the correct changes are.\
 In VS Code to choose your changes you would click on "Accept Current Change".\
 Remember to save the changed file(s).\
+\
 Step 3:\
 If you created a new file or want to manually choose the files that should be added:
 ```
@@ -151,36 +173,44 @@ otherwise you can also use the following if you want to add all the files you up
 ```
 git add -u
 ```
+\
 Step 4 (optional):\
 optional command to check if you added the correct files:
 ```
 git status
 ```
+\
 Step 5:
 ```
 git commit -m 'merge conflict resolved'
 ```
+\
 Step 6:
 ```
 git push origin development
 ```
+\
 Step 7:\
 Check if the pull request has been updated on github and inform others to check and confirm your pull request.\
+\
 Step 8:\
 After someone confirmed your pull request switch to the development branch.
 ```
 git checkout development
 ```
+\
 Step 9:\
 Update your local repository
 ```
 git pull origin development
 ```
+\
 Final step:\
 Delete the old branch locally once you're fully finished with it. This will not delete it remotely.
 ```
 git branch -d <ticket_branch_name>
 ```
+
 
 ## Useful github commands
 - "git fetch": using this command you can see a preview of all changes that would happen if you would use "git pull"
