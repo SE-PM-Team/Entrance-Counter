@@ -97,7 +97,7 @@ optional command to check if you added the correct files:
 git status
 ```
 \
-Step 5:\
+Step 5:
 ```
 git commit -m 'briefly describe what you changed'
 ```
